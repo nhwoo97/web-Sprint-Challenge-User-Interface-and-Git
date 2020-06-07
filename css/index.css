@@ -54,6 +54,9 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    width: 800px;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,11 +67,6 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
-}
-
-.container {
-    width: 800px;
-    margin: 0 auto;
 }
 
 .top-content {
@@ -83,6 +81,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin-top: 3%;
 }
 
 .middle-content {
@@ -110,6 +109,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +174,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.logo{
+    width:20%;
+    margin-right: 3%;
+  }
+.links{
+    width:75%;
+    display:flex;
+    justify-content:space-between;
+    margin-top: 2%;
+  }
+  .links a{
+    text-decoration:none;
+    color: black;
+  }
